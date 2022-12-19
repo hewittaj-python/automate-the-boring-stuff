@@ -1,4 +1,4 @@
-def isPhoneNumber(text):
+def is_phone_number(text):
     if len(text) != 12:
         return False
     for i in range(0, 3):
@@ -18,6 +18,6 @@ def isPhoneNumber(text):
 
 
 print('415-555-4242 is a phone number:')
-print(isPhoneNumber('415-555-4242'))
+print(is_phone_number('415-555-4242'))
 print('Moshi moshi is a phone number:')
-print(isPhoneNumber('Moshi moshi'))
+print(is_phone_number('Moshi moshi'))
